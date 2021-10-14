@@ -1,0 +1,38 @@
+-> PROJECT CONTENT
+1: CNN's at work- Siamese Network for Metric Learning
+    1. Metric Learning 
+    2. CNN recap
+    3. The usefulness of features obtained in the 2nd last layer of a trained network
+    4. Properties of RBF kernel
+    5. Metric learning and properties of a metric
+    6. Need for metric learning
+    7. Siamese Network as metric learning
+    8. Siamese network architecture
+    9. Computation of final metric value when inputs are given
+    10. Two ways of obtaining the metric
+    11. Examples of distance and similarity measures
+    12. Hands-on demo - Siamese Network
+    13. Hands On - One Shot Learning
+    
+
+
+PART I consists of task to train and compare image classifier models using supervised learning classifier, neural network classifier and 
+        a CNN classifier.
+-> DATA DESCRIPTION : The dataset comprises of images and its mask where there is a human face.
+-> PROJECT OBJECTIVE : Face detection from training images.
+
+PART II consists of curating images and its respective annotations from scratch.
+-> TASK DESCRIPTION : Help to create an image dataset to be used by the AI team to build an image classifier data. 
+                     Profile images of people are given
+
+PART III consists of task to train and compare image classifier models using supervised learning classifier, neural network classifier and 
+a CNN classifier. 
+-> DATA DESCRIPTION : The dataset comprises of images and its mask where there is a human face.
+-> PROJECT OBJECTIVE : Face Aligned Face Dataset from Pinterest. This dataset contains 10,770 images for 100 people. 
+                       All images are taken from 'Pinterest' and aligned using dlib library. Some data samples:
+
+PART IV consists of designing an object detection automation by imputing bounding boxes over a video as an input.
+
+-> TASK DESCRIPTION : Create an automation using computer vision to impute dynamic bounding boxes to locate cars or vehicles on the road.
+                      It would require for to do some research on how to impute bounding boxes on video file.
+                      Use video provided with this assignment or any video of any choice which has moving cars to impute bounding boxes.
