@@ -1,0 +1,150 @@
+-> PROJECT CONTENT
+
+1. WORKING WITH IMAGES AND CNN BUILDING BLOCKS
+    1. Agenda and Image Basics
+    2. Looking at an image as a bunch of pixel values 
+    3. Types of images – Greyscale, Binary, colour
+    4. Image formats – RAW, JPEG, PNG etc. 
+    5. Displaying images in python environment using PIL and Matplotlib
+    6. Image Operations
+    7. Sampling and quantization of 1D and 2D continuous signals
+    8. Approximation of an arc in the digital space
+    9. Definition of a Picture
+    10. Resolution of a picture
+    11. Images - Feature Extraction
+    12. Recap on what an image is
+    13. Domain and Range in the context of an image
+    14. Understanding a Histogram
+    15. Correlation and convolution of a dummy image grid with a kernel
+    16. Concept of Filtering with examples
+    17. Hands-on Python Demo: Working with images
+    18. Getting familiar with using an image in python
+    19. Building a simple Averaging Filter from scratch
+    20. Introduction to Convolutions
+    21. Convolutional Neural Network vs plain Neural Network
+    22. Need for Convolutional as an alternative to a plain neural network
+    23. Translational invariance
+    24. A simple demonstration of convolution using a 1D array
+    25. 2D convolutions for Images 
+    26. Demonstration of convolution on a simple 2D image, using manual calculations Convolution - Forward
+    27. Demonstration of convolution using a dummy array, in Tensorflow
+    28. Demonstration of convolution using an image in Tensorflow
+    29. Convolution - Forward & Backward Prop
+    30. Recap of convolution during forwarding path
+    31. Demo of convolution during backward prop using a simple example
+    31. Transposed Convolution and Fully Connected Layer as a Convolution
+    32. Dilated convolution
+    33. Deconvolution/Transposed convolution
+    34. Implementation of convolution to mimic a fully connected layer
+    35. Key points to remember when converting from linear to convolution
+    36. Pooling: Max Pooling and Other pooling options
+    37. Explanation of pooling and specifically max pooling and average pooling?
+    38. Demo of max pooling with TensorFlow
+    39. Max and average pooling during back prop
+    40. Other pooling options
+    41. Hands-on Keras Demo: MNIST CNN Building Blocks code walk-through
+    42. Implementation of CNN in Keras framework, using MNIST dataset
+
+2. CNN ARCITECHTURE AND TRANSFER LEARNING
+    1. CNN Architectures and LeNet Case Study
+    2. Two major challenge-datasets – MNIST and IMAGENET 
+    3. Discussion on LeNet for MNIST 
+    4. Discussion on various CNNs built for IMAGENET challenge
+    5. The network architecture of LeNet-5
+    6. Case Study: AlexNet
+    7. Architecture o AlexNet in detail
+    8. Case Study: ZFNet and VGGNet
+    9. Performance and architecture of ZFNet
+    10. Performance and architecture of VGGNet in detail
+    11. Case Study: GoogleNet
+    12. Architecture and performance of GoogleNet in detail
+    13. Case Study: ResNet
+    14. Performance comparison of all the architectures until now
+    15. Architecture comparison of VGGNet and ResNet
+    16. ResNet vs Plain NN
+    17. Key points about ResNet
+    18. The idea behind Squeeze and Excitation Network
+    19. Why use ConvNets? And a brief summary of the evolution of CNN
+    20. GPU vs CPU
+    21. How GPU is different from CPU? 
+    22. Comparison of the speed of execution of CPU and GPU
+    23. Transfer Learning Principles and Practice
+    24. Transfer learning as a smart workaround to enable the use of CNNs on
+    25. smaller datasets
+    26. Some standard practices when implementing transfer learning
+    27. A brief discussion on transfer learning for image captioning
+    28. Hands-on Transfer Learning: SVHN Transfer learning from MNIST dataset
+    29. Using a network trained on MNIST to classify SVHN digits to demonstrate
+    30. Transfer learning Visualization (run package, occlusion experiment)
+    31. The idea behind visualizing CNNs
+    32. Visualize patches that maximally activate neurons
+    33. Visualize the filters/kernels (weights)
+    34. Visualize the representation space
+    35. Occlusion space 
+    36. Addressing the Universal approximation theorem and the need for deep neural networks
+    37. Hands-on demo -T-SNE
+    38. Creating T-SNE embedding of each MNIST image to visualize in 2D 
+
+3. OBJECT DETECTION 
+    1. Object Detection
+    2. What is localization?
+    3. How localization is achieved
+    4. Faster R-CNN - architecture and workflow
+    5. Performances Metrics
+    6. IoU (Intersection over Union)
+    7. Precision & Recall
+    8. mAP (Mean Average Precision)
+    9. Hands-On - Transfer Learning
+    10. MNIST Data set - Transfer Learning Exercise
+    11. Hands-On - Object Localization Using Bounding Boxes
+    12. Extensive hands-on, on detecting bounding box
+    13. Different Object Detection Techniques
+    14. YOLO
+    15. Fast R-CNN
+    16. SSD
+
+4. SEMANTIC SEGMENTATION
+    1. Image Segmentation
+    2. Meaning of Semantic segmentation
+    3. Recap of CNN architecture
+    4. What is padding and why do we need it?
+    5. At a high level, how the architecture uses surrounding pixels to get the spatial context of a certain pixel, to classify/label that pixel
+    6. Addressing the issue of Double-convolution or redundant convolutions
+    7. Clarification on what is the input and what we expect as an output
+    8. Semantic Segmentation process
+    9. Pooling, as a way to decrease the size of individual feature map as well as increase the receptive field of each pixel of each feature map
+    10. Need for and ways to up-sample/un-pool
+    11. Hour-glass structure of the CNN used for semantic segmentation
+    12. Challenge with the hour-glass structure and a workaround for that
+    13. Semantic Segmentation U-Net Architecture
+    14. The workflow of U-Net architecture
+    15. Sample output for nucleus segmentation in pathology
+    16. Hands-on demo - Semantic Segmentation using U-Net
+    17. Demonstration of Semantic Segmentation using U-Net architecture
+    18. Instance Segmentation
+    19. Mask R-CNN
+    20. Class Imbalance
+    
+    
+PART I consists of task to train and compare image classifier models using supervised learning classifier, neural network classifier 
+      and a CNN classifier.
+-> DATA DESCRIPTION : The dataset comprises of images from 12 plant species.
+                      Source: https://www.kaggle.com/c/plant-seedlings-classification/data
+-> PROJECT OBJECTIVE : Require an automation which can create a classifier capable of determining a plant's species from a photo
+
+
+PART II consists of explaining observations how CNN outperforms other models.
+
+PART III consists of your curating an image dataset from scratch.
+-> DATA TASK: Help to build the image dataset to be used by the AI team to build an image classifier data.
+              Import and display the images in python against their labels. Comment on the challenges faced during this task.
+              Hint: An image classifier data requires images as data and their tags/labels/class to which they belong.
+
+PART IV consists of task to train and compare image classifier models using supervised learning classifier, neural network classifier 
+         and a CNN classifier. 
+-> DATA DESCRIPTION : The dataset comprises of images from 17 plant species. It can be downloaded from TensorFlow 
+                      [ Hint: import tflearn.datasets.oxflower17 as oxflower17 ]
+-> PROJECT OBJECTIVE: Requires an automation which can create a classifier capable of determining a flower’s species from a photo
+
+
+PART V consists of explaining observations how CNN outperforms other models.
